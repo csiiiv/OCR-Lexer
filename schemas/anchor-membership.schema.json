@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/csiiiv/OCR-Lexer/schemas/anchor-membership.schema.json",
+  "title": "AnchorMembership",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["object_id", "anchor_id", "residual", "normalized_residual", "score", "evidence"],
+  "properties": {
+    "object_id": {"type": "string", "minLength": 1},
+    "anchor_id": {"type": "string", "minLength": 1},
+    "residual": {"type": "number"},
+    "normalized_residual": {"type": "number"},
+    "score": {"type": "number"},
+    "evidence": {
+      "type": "object",
+      "additionalProperties": {"type": "number"}
+    }
+  }
+}
