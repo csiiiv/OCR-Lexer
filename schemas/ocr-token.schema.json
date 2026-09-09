@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/csiiiv/OCR-Lexer/schemas/ocr-token.schema.json",
+  "title": "OCRToken",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "page_id", "text_raw", "text_normalized", "bbox", "confidence"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "page_id": {"type": "integer", "minimum": 0},
+    "text_raw": {"type": "string"},
+    "text_normalized": {"type": "string"},
+    "bbox": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x0", "y0", "x1", "y1"],
+      "properties": {
+        "x0": {"type": "number"},
+        "y0": {"type": "number"},
+        "x1": {"type": "number"},
+        "y1": {"type": "number"}
+      }
+    },
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "rotation_deg": {"type": ["number", "null"]},
+    "source_index": {"type": ["integer", "null"], "minimum": 0}
+  }
+}
