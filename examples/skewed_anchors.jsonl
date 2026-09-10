@@ -1,0 +1,12 @@
+{"id":1,"page_id":0,"text_raw":"Program","bbox":[102.0,95.0,142.0,105.0],"confidence":0.99}
+{"id":2,"page_id":0,"text_raw":"Alpha","bbox":[147.0,95.0,177.0,105.0],"confidence":0.99}
+{"id":3,"page_id":0,"text_raw":"Region","bbox":[132.4,115.0,167.4,125.0],"confidence":0.99}
+{"id":4,"page_id":0,"text_raw":"I","bbox":[172.4,115.0,177.4,125.0],"confidence":0.99}
+{"id":5,"page_id":0,"text_raw":"Item","bbox":[162.8,135.0,187.8,145.0],"confidence":0.99}
+{"id":6,"page_id":0,"text_raw":"A","bbox":[192.8,135.0,202.8,145.0],"confidence":0.99}
+{"id":7,"page_id":0,"text_raw":"Item","bbox":[163.2,155.0,188.2,165.0],"confidence":0.99}
+{"id":8,"page_id":0,"text_raw":"B","bbox":[193.2,155.0,203.2,165.0],"confidence":0.99}
+{"id":9,"page_id":0,"text_raw":"Region","bbox":[133.6,175.0,168.6,185.0],"confidence":0.99}
+{"id":10,"page_id":0,"text_raw":"II","bbox":[173.6,175.0,183.6,185.0],"confidence":0.99}
+{"id":11,"page_id":0,"text_raw":"Item","bbox":[164.0,195.0,189.0,205.0],"confidence":0.99}
+{"id":12,"page_id":0,"text_raw":"C","bbox":[194.0,195.0,204.0,205.0],"confidence":0.99}
